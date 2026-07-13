@@ -25,7 +25,7 @@ To open the DevTools panel, you can use any of these easy methods:
   * **Mac:** Press `Cmd + Option + I` or `Cmd + Option + J`
   * **Windows/Linux:** Press `Ctrl + Shift + I` or `F12`
 
-![Open Inspector Tools](readme/Screenshot%202026-07-13%20at%2011.27.47%20PM.png)
+![Open Inspector Tools](readme/inspect_menu.png)
 
 ---
 
@@ -34,9 +34,9 @@ Once the developer panel opens:
 1. Click on the **Console** tab at the top.
 2. If you see the current dropdown set to something else, click on it and select **top** context to make sure scripts execute correctly.
 
-![Click on Console](readme/Screenshot%202026-07-13%20at%2011.28.59%20PM.png)
-![Select top context](readme/Screenshot%202026-07-13%20at%2011.29.43%20PM.png)
-![Top option selected](readme/image%20copy.png)
+![Click on Console](readme/console_tab.png)
+![Select top context](readme/top_context_selection.png)
+![Top option selected](readme/image_copy.png)
 
 ---
 
@@ -48,7 +48,7 @@ To bypass this safety block:
 2. Press **Enter**.
 3. Now you will be able to paste any script into the console window.
 
-![Allow Pasting Error Fix](readme/Screenshot%202026-07-13%20at%2011.30.43%20PM.png)
+![Allow Pasting Error Fix](readme/pasting_error_fix.png)
 
 ---
 
@@ -58,15 +58,15 @@ Before running the console injection:
 2. **Delete all existing code** in the section where your solution needs to go. Ensure the section is clean and completely empty.
 3. **Important:** Keep your text cursor active inside the blank white section of the code editor.
 
-![Clean Code Area](readme/image%20copy%203.png)
-![Keep Cursor Active](readme/Screenshot%202026-07-13%20at%2011.32.34%20PM.png)
+![Clean Code Area](readme/image_copy_3.png)
+![Keep Cursor Active](readme/code_editor_active.png)
 
 ---
 
 ### Step 7: Inject the Code
 Paste your copied console script into the Developer Console and hit **Enter**. The code will be instantly typed directly into the portal editor right where your cursor was active!
 
-![Inject Code and Hit Enter](readme/image%20copy%205.png)
+![Inject Code and Hit Enter](readme/image_copy_5.png)
 
 ---
 

@@ -1,0 +1,20 @@
+document.querySelector('.ace_editor').env.editor.insert(`class ComplexNum<T extends Number> {
+    T r;
+    T i;
+
+    public ComplexNum(T r, T i) {
+        this.r = r;
+        this.i = i;
+    }
+
+    public ComplexNum<Double> add(ComplexNum<?> other) {
+        double realSum = this.r.doubleValue() + other.r.doubleValue();
+        double imagSum = this.i.doubleValue() + other.i.doubleValue();
+        return new ComplexNum<Double>(realSum, imagSum);
+    }
+
+    @Override
+    public String toString() {
+        return r.doubleValue() + " + " + i.doubleValue() + "i";
+    }
+}`);
